@@ -1,0 +1,83 @@
+% node main.js 
+curr epoch number: 9
+curr epoch start : 12820400
+curr epoch end   : 13021999
+latest height    : 12956315 (135915/201600)
+query posEpochNum: 8
+epochStartH      : 12618800
+epochEndH        : 12820399
+startValsInfo:
+┌─────────┬────────────────┬────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │     intro      │                   miner                    │  vp   │ retiring │
+├─────────┼────────────────┼────────────────────────────────────────────┼───────┼──────────┤
+│    0    │  'matrixport'  │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │   'SmartVal'   │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │ '코인판크토시' │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │    'ViaBTC'    │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │  'RabbitBCH'   │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │   'FlipETH'    │ 'CA191E53BAE1C905DF46C5A5A8A5295B19768F0B' │ 10000 │  false   │
+│    6    │ 'Benswap.cash' │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    7    │   'songoku'    │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
+└─────────┴────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+endValsInfo:
+┌─────────┬────────────────┬────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │     intro      │                   miner                    │  vp   │ retiring │
+├─────────┼────────────────┼────────────────────────────────────────────┼───────┼──────────┤
+│    0    │  'matrixport'  │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │   'SmartVal'   │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │ '코인판크토시' │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │    'ViaBTC'    │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │  'RabbitBCH'   │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │   'FlipETH'    │ 'CA191E53BAE1C905DF46C5A5A8A5295B19768F0B' │ 10000 │  false   │
+│    6    │ 'Benswap.cash' │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    7    │   'songoku'    │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
+└─────────┴────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+slashedVals: []
+get block: 12820399, ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+lastMinedBlockMap: [
+  {
+    miner: '0xA928a5794D9852389FF572b1941A672274c6C44A',
+    block: 12820392
+  },
+  {
+    miner: '0xCA191e53bAE1c905Df46c5a5A8a5295b19768F0b',
+    block: 12820393
+  },
+  {
+    miner: '0xFd46d618d0cD459F791F44D9C6E54302658aD142',
+    block: 12820394
+  },
+  {
+    miner: '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9',
+    block: 12820395
+  },
+  {
+    miner: '0xF22a003226b2221b00906C7435C2eB582223C5C2',
+    block: 12820396
+  },
+  {
+    miner: '0x930C23CE7536B0ede6AfE7754134d4011217D6AA',
+    block: 12820397
+  },
+  {
+    miner: '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A',
+    block: 12820398
+  },
+  {
+    miner: '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627',
+    block: 12820399
+  }
+]
+minedBlocksMap: Map(8) {
+  '0xA928a5794D9852389FF572b1941A672274c6C44A' => 25494,
+  '0xCA191e53bAE1c905Df46c5a5A8a5295b19768F0b' => 25201,
+  '0xFd46d618d0cD459F791F44D9C6E54302658aD142' => 25201,
+  '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9' => 24884,
+  '0xF22a003226b2221b00906C7435C2eB582223C5C2' => 25518,
+  '0x930C23CE7536B0ede6AfE7754134d4011217D6AA' => 25201,
+  '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A' => 25161,
+  '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627' => 24948
+}
+offlineMinerMap: Map(0) {}
+delayedBlocks: []
+allRewards: 4
