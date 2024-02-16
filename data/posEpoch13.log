@@ -1,0 +1,93 @@
+% node main.js
+curr epoch number: 14
+curr epoch start : 13828400
+curr epoch end   : 14029999
+latest height    : 13845682 (17282/201600)
+query posEpochNum: 13
+epochStartH      : 13626800
+epochEndH        : 13828399
+startValsInfo:
+┌─────────┬────────────────┬────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │     intro      │                   miner                    │  vp   │ retiring │
+├─────────┼────────────────┼────────────────────────────────────────────┼───────┼──────────┤
+│    0    │  'matrixport'  │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │   'SmartVal'   │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │ '코인판크토시' │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │    'ViaBTC'    │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │  'RabbitBCH'   │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │   'FlipETH'    │ 'CA191E53BAE1C905DF46C5A5A8A5295B19768F0B' │ 10000 │  false   │
+│    6    │ 'Benswap.cash' │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    7    │   'songoku'    │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
+└─────────┴────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+endValsInfo:
+┌─────────┬────────────────┬────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │     intro      │                   miner                    │  vp   │ retiring │
+├─────────┼────────────────┼────────────────────────────────────────────┼───────┼──────────┤
+│    0    │  'matrixport'  │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │   'SmartVal'   │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │ '코인판크토시' │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │    'ViaBTC'    │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │  'RabbitBCH'   │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │ 'Benswap.cash' │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    6    │   'songoku'    │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
+└─────────┴────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+slashedVals: [
+  {
+    address: '0xabf504e06b2c50a1c51db65b14231a6a1e8c1f6a',
+    pubkey: '0x12542dc24b46b1c6528ce4f76390b12befed34f0055cb30841ae5f313f7b3de0',
+    reward_to: '0xabf504e06b2c50a1c51db65b14231a6a1e8c1f6a',
+    voting_power: 10000,
+    introduction: 'FlipETH',
+    staked_coins: '0x000000000000000000000000000000000000000000000001bc173167fcfa4000',
+    is_retiring: false,
+    miner_address: 'CA191E53BAE1C905DF46C5A5A8A5295B19768F0B'
+  }
+]
+get block: 13828399, ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+lastMinedBlockMap: [
+  {
+    miner: '0xA928a5794D9852389FF572b1941A672274c6C44A',
+    block: 13828395
+  },
+  {
+    miner: '0xCA191e53bAE1c905Df46c5a5A8a5295b19768F0b',
+    block: 13634457
+  },
+  {
+    miner: '0xFd46d618d0cD459F791F44D9C6E54302658aD142',
+    block: 13828396
+  },
+  {
+    miner: '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9',
+    block: 13828397
+  },
+  {
+    miner: '0xF22a003226b2221b00906C7435C2eB582223C5C2',
+    block: 13828398
+  },
+  {
+    miner: '0x930C23CE7536B0ede6AfE7754134d4011217D6AA',
+    block: 13828399
+  },
+  {
+    miner: '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A',
+    block: 13828393
+  },
+  {
+    miner: '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627',
+    block: 13828394
+  }
+]
+minedBlocksMap: Map(8) {
+  '0xA928a5794D9852389FF572b1941A672274c6C44A' => 28849,
+  '0xCA191e53bAE1c905Df46c5a5A8a5295b19768F0b' => 959,
+  '0xFd46d618d0cD459F791F44D9C6E54302658aD142' => 29387,
+  '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9' => 28267,
+  '0xF22a003226b2221b00906C7435C2eB582223C5C2' => 28821,
+  '0x930C23CE7536B0ede6AfE7754134d4011217D6AA' => 28544,
+  '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A' => 28430,
+  '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627' => 28351
+}
+offlineMinerMap: Map(1) { '0xCA191e53bAE1c905Df46c5a5A8a5295b19768F0b' => 13634457 }
+delayedBlocks: []
+allRewards: 2
