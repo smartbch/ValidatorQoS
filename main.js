@@ -5,8 +5,8 @@ const purePosEpochBlocks = 201600;
 const minBlockInterval = 3 * 60;
 const minMinerGap = 4 * 3600;
 
-// const sbchRpcUrl = 'https://rpc.smartbch.org';
-const sbchRpcUrl = 'http://52.77.220.215:8545'; // archive node
+const sbchRpcUrl = 'https://rpc.smartbch.org';
+// const sbchRpcUrl = 'http://52.77.220.215:8545'; // archive node
 const provider = new ethers.JsonRpcProvider(sbchRpcUrl);
 
 
