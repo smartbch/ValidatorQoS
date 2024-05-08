@@ -55,9 +55,9 @@ async function queryEpoch(posEpochNum) {
     const got = h - epochStartH + 1;
     const progress = Math.floor(got / purePosEpochBlocks * 100);
     // process.stdout.write(`\rget block: ${h}, (${got}/${purePosEpochBlocks})`);
-    process.stdout.write(`\rget block: ${h}, ${"■".repeat(progress)}${"□".repeat(100 - progress)}`);
     const block = await getBlock(h);
     // console.log(block);
+    process.stdout.write(`\rget block: ${block.number}, ${"■".repeat(progress)}${"□".repeat(100 - progress)}`);
 
     const minedBlocks = minedBlocksMap.get(block.miner) || 1;
     minedBlocksMap.set(block.miner, minedBlocks + 1);
