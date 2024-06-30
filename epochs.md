@@ -6,6 +6,7 @@
 
 | PoS Epoch | Validators | Total Rewards |
 | --------: | ---------: | ------------: |
+|        21 |         11 |             4 |
 |        20 |         11 |             3 |
 |        19 |         11 |             4 |
 |        18 |         11 |             4 |
@@ -24,6 +25,26 @@
 |         5 |          7 |             4 |
 |         4 |          7 |             3 |
 |         3 |          6 |             4 |
+
+
+## Epoch 21
+
+Height: 15239600 ~ 15441199
+
+| Validator    | RewardTo Address                             | Miner Address                                | Mined Blocks | Offline > 4h | Slashed | Reward |
+| ------------ | -------------------------------------------- | -------------------------------------------- | ------------ | ------------ | ------- | ------ |
+| matrixport   | `0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3` | `0x930c23ce7536b0ede6afe7754134d4011217d6aa` | 18329        |              |         | 0.3636 |
+| SmartVal     | `0x827594fafd443784c85404575214c9a965dda4e6` | `0xf22a003226b2221b00906c7435c2eb582223c5c2` | 18336        |              |         | 0.3636 |
+| 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 18322        |              |         | 0.3636 |
+| ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 18338        |              |         | 0.3636 |
+| RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 18333        |              |         | 0.3636 |
+| Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 18321        |              |         | 0.3636 |
+| songoku      | `0x9f292bc24c09ace90827ccbbed7ecf5d797bea12` | `0xfac3a668d5bed3ddbd854b647e3113946be3306a` | 18363        |              |         | 0.3636 |
+| KimDotCool   | `0x42bde43b98a35885f65e6999412ed7af12f21606` | `0x8bce68c4092c2d0dc369682520ba31f833518036` | 18290        |              |         | 0.3636 |
+| BitDeer      | `0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645` | `0x214CF857DAC52298955768763CE0F8E92F0DCCC6` | 18325        |              |         | 0.3636 |
+| SatoshiVision| `0xfd2da63e149d056bd1f66638cd8de775ab73a24d` | `0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2` | 18326        |              |         | 0.3636 |
+| chzhx        | `0xe7f72265695a635574cbc60b47cf95c73c80f602` | `0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0` | 18328        |              |         | 0.3636 |
+
 
 
 ## Epoch 20
@@ -169,7 +190,7 @@ Height: 13626800 ~ 13828399
 | 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 28351        |              |         | 0.2857    |
 | ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 28849        |              |         | 0.2857    |
 | RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 29387        |              |         | 0.2857    |
-| FlipETH      | `0xabf504e06b2c50a1c51db65b14231a6a1e8c1f6a` | `0xca191e53bae1c905df46c5a5a8a5295b19768f0b` | 959        | yes | yes | 0    |
+| FlipETH      | `0xabf504e06b2c50a1c51db65b14231a6a1e8c1f6a` | `0xca191e53bae1c905df46c5a5a8a5295b19768f0b` | 959        |              |         | 0    |
 | Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 28267        |              |         | 0.2857    |
 | songoku      | `0x9f292bc24c09ace90827ccbbed7ecf5d797bea12` | `0xfac3a668d5bed3ddbd854b647e3113946be3306a` | 28430        |              |         | 0.2857    |
 
