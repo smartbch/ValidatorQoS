@@ -1,0 +1,104 @@
+% node main.js 
+curr epoch number: 21
+curr epoch start : 15239600
+curr epoch end   : 15441199
+latest height    : 15278794 (39194/201600)
+query posEpochNum: 20
+epochStartH      : 15038000
+epochEndH        : 15239599
+startValsInfo:
+┌─────────┬──────────────────┬────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │      intro       │                   miner                    │  vp   │ retiring │
+├─────────┼──────────────────┼────────────────────────────────────────────┼───────┼──────────┤
+│    0    │   'matrixport'   │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │    'SmartVal'    │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │  '코인판크토시'  │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │     'ViaBTC'     │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │   'RabbitBCH'    │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │  'Benswap.cash'  │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    6    │    'songoku'     │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
+│    7    │   'KimDotCool'   │ '8BCE68C4092C2D0DC369682520BA31F833518036' │ 10000 │  false   │
+│    8    │    'BitDeer'     │ '214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
+│    9    │ 'Satoshi Vision' │ '2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
+│   10    │     'chzhx'      │ 'A0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
+└─────────┴──────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+endValsInfo:
+┌─────────┬──────────────────┬────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │      intro       │                   miner                    │  vp   │ retiring │
+├─────────┼──────────────────┼────────────────────────────────────────────┼───────┼──────────┤
+│    0    │   'matrixport'   │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │    'SmartVal'    │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │  '코인판크토시'  │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │     'ViaBTC'     │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │   'RabbitBCH'    │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │  'Benswap.cash'  │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    6    │    'songoku'     │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
+│    7    │   'KimDotCool'   │ '8BCE68C4092C2D0DC369682520BA31F833518036' │ 10000 │  false   │
+│    8    │    'BitDeer'     │ '214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
+│    9    │ 'Satoshi Vision' │ '2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
+│   10    │     'chzhx'      │ 'A0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
+└─────────┴──────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+slashedVals: []
+get block: 15239599, ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+lastMinedBlockMap: [
+  {
+    miner: '0xFd46d618d0cD459F791F44D9C6E54302658aD142',
+    block: 15239597
+  },
+  {
+    miner: '0xA0AD8f2f1799f7C2CB317fee0BBB25D0142f6aB0',
+    block: 15239598
+  },
+  {
+    miner: '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9',
+    block: 15239599
+  },
+  {
+    miner: '0xF22a003226b2221b00906C7435C2eB582223C5C2',
+    block: 15239589
+  },
+  {
+    miner: '0x930C23CE7536B0ede6AfE7754134d4011217D6AA',
+    block: 15239590
+  },
+  {
+    miner: '0x8bCe68c4092C2d0Dc369682520Ba31F833518036',
+    block: 15239591
+  },
+  {
+    miner: '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A',
+    block: 15239592
+  },
+  {
+    miner: '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627',
+    block: 15239593
+  },
+  {
+    miner: '0xA928a5794D9852389FF572b1941A672274c6C44A',
+    block: 15239594
+  },
+  {
+    miner: '0x214CF857dAC52298955768763Ce0f8e92f0dCcc6',
+    block: 15239595
+  },
+  {
+    miner: '0x2BB0818fdA78E9432B4Fde90613fD9619DDAfcd2',
+    block: 15239596
+  }
+]
+minedBlocksMap: Map(11) {
+  '0xFd46d618d0cD459F791F44D9C6E54302658aD142' => 18348,
+  '0xA0AD8f2f1799f7C2CB317fee0BBB25D0142f6aB0' => 18325,
+  '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9' => 18325,
+  '0xF22a003226b2221b00906C7435C2eB582223C5C2' => 18336,
+  '0x930C23CE7536B0ede6AfE7754134d4011217D6AA' => 17824,
+  '0x8bCe68c4092C2d0Dc369682520Ba31F833518036' => 18806,
+  '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A' => 18352,
+  '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627' => 18318,
+  '0xA928a5794D9852389FF572b1941A672274c6C44A' => 18340,
+  '0x214CF857dAC52298955768763Ce0f8e92f0dCcc6' => 18321,
+  '0x2BB0818fdA78E9432B4Fde90613fD9619DDAfcd2' => 18316
+}
+offlineMinerMap: Map(1) { '0x930C23CE7536B0ede6AfE7754134d4011217D6AA' => 15090969 }
+delayedBlocks: []
+allRewards: 3
